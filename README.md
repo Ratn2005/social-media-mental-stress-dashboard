@@ -8,14 +8,16 @@
 **Binary stress classification** (Stress vs Non-Stress) 
 **NLP + LIWC psycholinguistics + VADER sentiment + social signals**  
 **Fully interactive** with slicers, cross-filtering, drill-through, and heatmaps    
-## 🎯 Key Findings  | Metric | Stress | Non-Stress ||--------|--------|------------| | Avg Social Karma | 14.22 | 22.72 | | Avg Sentiment Score | -0.016 | +0.103 | | I-Pronoun Usage | 10.84% | 7.11% | | Negative Emotion Words | 4.42% | 2.07% | | Analytic Thinking Score | 28.99 | 42.13 | | Emotional Tone Score | 18.76 | 49.60 |  
-## 📊 Dashboard Pages  | Page | Description | |------|-------------| | Overview | Stress distribution, subreddit breakdown, monthly trend | | Behavior | Karma, comments, upvote ratio comparison | | Psychology | LIWC features, pronoun radar chart, cognitive analysis | | Sentiment | Sentiment distribution, subreddit sentiment heatmap | | Community Risk | Risk ranking, bubble chart, stress heatmap matrix |  
-## 🛠 Tech Stack  - **Microsoft Power BI Desktop** — dashboard and visualizations - **DAX** — 10 custom measures - **Power Query (M)** — ETL, timestamp conversion, SentimentBin column - **LIWC (Linguistic Inquiry and Word Count)** — psycholinguistic features - **VADER Sentiment** — pre-computed sentiment scores  --- 
+## 🎯 Key Findings  
+| Metric | Stress | Non-Stress ||--------|--------|------------| | Avg Social Karma | 14.22 | 22.72 | | Avg Sentiment Score | -0.016 | +0.103 | | I-Pronoun Usage | 10.84% | 7.11% | | Negative Emotion Words | 4.42% | 2.07% | | Analytic Thinking Score | 28.99 | 42.13 | | Emotional Tone Score | 18.76 | 49.60 |  
+## 📊 Dashboard Pages  
+| Page | Description | |------|-------------| | Overview | Stress distribution, subreddit breakdown, monthly trend | | Behavior | Karma, comments, upvote ratio comparison | | Sentiment | Sentiment distribution, subreddit sentiment heatmap | | Community Risk | Risk ranking, bubble chart, stress heatmap matrix |  
+## 🛠 Tech Stack  - **Microsoft Power BI Desktop** — dashboard and visualizations - **DAX** — 10 custom measures - **Power Query (M)** — ETL, timestamp conversion, SentimentBin column - **LIWC (Linguistic Inquiry and Word Count)** — psycholinguistic features - **VADER Sentiment** — pre-computed sentiment scores   
 ## 📁 Repository Structure  
 ``` social-media-mental-stress-dashboard/ ├── dataset/          # Dreaddit training CSV ├── powerbi/          # .pbix Power BI file ├── report/           # Full project report (.docx) ├── screenshots/      # Dashboard page screenshots └── demo/             # Screen recording of dashboard ```   
 ## 🔗 Dataset Source  > Turcan, E., & McKeown, K. (2019). 
-*Dreaddit: A Reddit Dataset for Stress Analysis in Social Media*. WASSA 2019, ACL. >  > Dataset available at: https://huggingface.co/datasets/dreaddit  --- 
+*Dreaddit: A Reddit Dataset for Stress Analysis in Social Media*. WASSA 2019, ACL. >  > Dataset available at: https://huggingface.co/datasets/dreaddit   
 ## 📄 License  MIT License — free to use, modify, and distribute with attribution.  
 ## 👤 Author  **Ratn Priya**  
-[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7452957837137219584/) · 
+[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7452957837137219584/)  
 
